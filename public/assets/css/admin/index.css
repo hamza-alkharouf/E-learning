@@ -1,0 +1,213 @@
+
+.card-header{
+  background-color: #878f99;
+}
+.btn-primary{
+  text-decoration: none; 
+  border:0;
+ font-weight: bold;
+}
+#Pagination{
+  margin-left: 30%;
+  margin-top: 10%;
+  }
+    h4{
+        Color:#F5F5F5;
+    }
+
+      /* 
+    ##Device = Desktops
+    ##Screen = 1281px to higher resolution desktops
+  */
+  @media (min-width: 1281px) {
+    
+      /* CSS */
+      .buttonAdd{
+          
+        margin-left: 80%;
+        margin-bottom: 5%;
+      }
+
+  
+  h4{
+  
+    Color:#F5F5F5;
+  
+  }
+}
+      
+  tbody .btn{
+      font-size: medium;
+    }
+  
+  
+  th{
+    text-align: center;
+  }
+  h4{
+    text-align: center;
+    font-weight: bold;
+  }
+  
+        /* 
+      ##Device = Desktops
+      ##Screen = 1281px to higher resolution desktops
+    */
+    @media (min-width: 1281px) {
+      
+        /* CSS */
+        .buttonAdd{
+            
+          margin-left: 80%;
+          margin-bottom: 5%;
+        }
+        .table{
+    
+          margin-bottom: 20%;
+            
+            }
+        
+      }
+      
+      /* 
+        ##Device = Laptops, Desktops
+        ##Screen = B/w 1025px to 1280px
+      */
+      
+      @media (min-width: 1025px) and (max-width: 1280px) {
+        
+        /* CSS */
+        .buttonAdd{
+            
+          margin-left: 80%;
+          margin-bottom: 5%;
+        }
+        .table{
+    
+          margin-bottom: 20%;
+            
+            }
+        
+      }
+    
+      /* 1059 */
+      /* 768 */
+      /* 
+        ##Device = Tablets, Ipads (portrait)
+        ##Screen = B/w 768px to 1024px
+      */
+      
+      @media (min-width: 768px) and (max-width: 1024px) {
+        
+        /* CSS */
+        .buttonAdd{
+            
+          margin-left: 80%;
+          font-size: small;
+          margin-bottom: 5%;
+        }
+        .table{
+    
+          margin-bottom: 20%;
+            
+            }
+        
+      }
+      
+      /* 
+        ##Device = Tablets, Ipads (landscape)
+        ##Screen = B/w 768px to 1024px
+      */
+      
+      @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+        
+        /* CSS */
+     
+        .buttonAdd{
+            
+          margin-left: 80%;
+          margin-bottom: 5%;
+          font-size: small;
+        }
+        .table{
+    
+          margin-bottom: 20%;
+            
+            }
+        
+      }
+      
+      /* 
+        ##Device = Low Resolution Tablets, Mobiles (Landscape)
+        ##Screen = B/w 481px to 767px
+      */
+      
+      @media (min-width: 481px) and (max-width: 767px) {
+        
+        /* CSS */
+        
+        .buttonAdd{
+            
+          margin-left: 120%;
+          margin-bottom: 5%;
+          font-size: small;
+        }
+        .table{
+    
+          margin-bottom: 20%;
+          margin-right: 40%;
+            }
+        
+      }
+      @media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+        
+        /* CSS */
+        
+        .buttonAdd{
+            
+          margin-left: 110%;
+          margin-bottom: 5%;
+          font-size: small;
+        }
+        .table{
+          margin-bottom: 20%;
+          margin-right: 20%;
+            }
+        
+      }
+      /* 
+        ##Device = Most of the Smartphones Mobiles (Portrait)
+        ##Screen = B/w 320px to 479px
+      */
+      
+      @media (min-width: 320px) and (max-width: 480px) {
+        
+        /* CSS */
+    
+        .buttonAdd{
+            
+          margin-left: 560px;
+          margin-bottom: 5%;
+          font-size: small;
+        }
+        .table{
+    
+          margin-bottom: 20%;
+            }
+        
+      }
+      @media (max-width: 319px) {
+        
+        /* CSS */
+        .buttonAdd{
+            
+          margin-left: 570px;
+          margin-bottom: 5%;
+          font-size: small;
+        }
+        .table{
+          margin-bottom: 20%;
+            }
+      
+        
+      }

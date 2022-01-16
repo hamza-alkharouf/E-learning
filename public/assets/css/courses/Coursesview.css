@@ -1,0 +1,162 @@
+header {
+
+    margin-bottom: 70px;
+
+}
+#Pagination{
+  margin-left: 30%;
+  margin-top: 10%;
+  }
+.img-thumbnail{
+  max-width: 70%;
+}
+.image {
+  padding: 230px 0px 0px 0px; 
+}
+.headerDescription{
+    margin-top: 150px;
+}
+.card {
+    border:0px;
+}
+ .card-body{
+    border:1px solid rgba(0,0,0,.125);
+ }
+
+      /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  
+  /* CSS */
+
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+
+}
+
+/* 1059 */
+/* 768 */
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  .image {
+    padding: 270px 6px 0px 0px;
+  }
+  .headerDescription {
+    margin-top: 90px;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+
+
+  .image {
+    padding: 270px 6px 0px 0px;
+  }
+  .headerDescription {
+    margin-top: 100px;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+  .image {
+    padding: 270px 6px 0px 0px;
+  }
+  .headerDescription {
+    margin-top: 100px;
+  }
+  
+  
+}
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+  
+  /* CSS */
+  .image {
+    padding: 270px 6px 0px 0px;
+  }
+  .headerDescription {
+    margin-top: 90px;
+  }
+
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+.container-fluid{
+  width: 418px;
+}
+  
+
+  .headerDescription{
+    margin-top: 50px;
+    
+}
+.btn{
+    font-size: 5px;
+}
+.img-thumbnail{
+  max-width: 100%;
+}
+.image {
+  padding: 270px 6px 0px 0px;
+}
+
+}
+  /* CSS */
+
+@media (max-width: 319px) {
+
+  .headerDescription{
+    margin-top: 50px;
+    
+}
+.btn{
+    font-size: 5px;
+}
+
+.container-fluid{
+  width: 418px;
+}
+.img-thumbnail{
+  max-width: 100%;
+}
+.image {
+  padding: 270px 6px 0px 0px;
+}
+
+}

@@ -1,0 +1,90 @@
+.card{   
+    margin-top: 40px;
+    
+}
+.btn-group{
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+
+}
+#Pagination{
+margin-left: 30%;
+margin-top: 10%;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .btn-group{
+        margin-left: 30%;
+    }    
+    
+  }
+  .Attention{
+    margin-right: 100px;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+ 
+    .btn-group{
+        margin-left: 30%;
+    }    
+    
+    
+  }
+@media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+
+    .card{
+        width: 630px;
+      }
+      .btn-group{
+        margin-left: 30%;
+    
+    }
+    
+  }
+  @media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+    
+    
+    .card{
+        width: 670px;
+      }
+      .btn-group{
+        margin-left: 27%;
+    
+    }
+    
+  }
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+
+    .card{
+        width: 650px;
+      }
+      .btn-group{
+        margin-left: 63%;
+    
+    }
+  }
+  @media (max-width: 319px) {
+    
+    /* CSS */
+    .card{
+          width: 630px;
+        }
+        .btn-group{
+            margin-left: 85%;
+        
+        }
+    
+  }

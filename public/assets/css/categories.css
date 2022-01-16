@@ -1,0 +1,32 @@
+.row {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+  }
+  a {
+    text-decoration: none;
+    color: #3699FF;
+    background-color: transparent;
+  }
+  .card {
+    margin-bottom: 30px;
+    border: 0;
+    box-shadow: 0 0 2rem  #796f6f;
+  }
+  
+  .card-body {
+    min-height: 1px;
+    padding: 1.5rem;
+    flex: 1 1 auto;
+  }
+  .col {
+    max-width: 100%;
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+  .card-title {
+    color: #555555;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }

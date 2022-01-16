@@ -1,0 +1,508 @@
+
+/*start home  section style */
+
+*{
+
+    scroll-behavior: smooth;
+        margin: 0px;
+        font-family: sans-serif;
+     
+
+  }
+  
+  
+  .navbar-brand span{
+    color:gray;
+  }
+  .container h4{
+    font-size:50px;
+    font-weight:bold;
+    color:white;
+    font-family:inherit;
+  }
+  
+  .navbar{
+    background-color:#212529;;
+    }
+  
+  .nav-link{
+    color:white;
+   
+  }
+  
+   a:hover{
+    color:gray;
+  }
+
+.n{
+margin-left: 50px;
+}
+#login {
+   
+    color:#fff;
+    cursor: pointer;
+}
+
+ #login:hover{
+    color:#444;
+}
+
+
+  
+  .navbar-light .navbar-nav .nav-link {
+      color: #fff;
+  }
+  .navbar-light .navbar-nav .nav-link:hover {
+      color: gray;
+  }
+  
+  
+  
+  .carousel-caption{
+    top:30%;
+  position: absolute;
+  
+  }
+  
+  
+  .carousel-innerimg{
+    width:100%;
+    height: 100%;
+    font-family: sans-serif;
+  }
+  .carousel-caption h5{
+    text-shadow: 2px 2px 15px black;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  .carousel-caption p{
+    text-shadow: 2px 2px 15px black;
+    font-size: 40px;
+    font-family: sans-serif;
+  }
+  
+  .carousel-caption button{
+    background-color:gray;
+    border-radius: 7px;
+    margin-left: 10px;
+    border: 3px solid white;
+
+      height: 50px;
+      width:150px;
+  }
+  
+
+
+  
+  @media only screen and (max-width: 767px) {
+      .navbar-nav.ml-auto {
+          background: rgba(0, 0, 0, 0.5);
+      }
+    .navbar-nav a {
+          font-size: 14px;
+          font-weight: normal;
+      }
+  }
+  
+  /* end homepage style */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* start about  section style */
+  section{
+
+  background-color: white;
+  }
+  
+  .row{
+    position: relative;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+  
+  }
+  .row .col50{
+  
+    position:relative;
+    width:50%;
+  
+  }
+  .titletext{
+  
+    font-weight: 300;
+    font-size:60px;
+    font-weight:bold;
+    color:gray;
+    margin-left: 40px;
+   
+  }
+  .titletext span{
+    color:#6A5ACD;
+    font-weight: 700;
+    font-size:70px;
+  }
+  .col50 h2{
+    font-size: 60px;
+  }
+  .col50 p{
+    color:gray;
+    font-size: 20px;
+    font-family:Helvetica;
+    margin-left: 50px;
+  }
+  
+  .row .col50 .imgBX{
+  
+    position:relative;
+    margin-top: 20px;
+  
+  }
+  #c {
+    margin-top: 80px;
+     
+  }
+  .imgBx {
+margin-left: 60px;
+height: 450px;
+width: 450px;
+  
+  }
+
+  #c button{
+      background-color:gray;
+      border-radius: 7px;
+      margin-left: 50px;
+      border: 2px solid white;
+
+  
+  }
+  .row .col50 .imgBX img{
+    position:absolute;
+    left: 1px;;
+    top: 1px;;
+    width:100px;
+    height:90px;
+    object-fit: cover;
+  }
+  
+  
+  /* enf about section style */
+  
+  
+
+
+
+
+
+
+
+
+
+
+  /* start courses section style */
+  
+  .wrapper{
+    width: 100%;
+  }
+  .car{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+  }
+  .car .card{
+    color: black;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 50px;
+    font-weight:bold;
+    border-radius:10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    height: 400px;
+  }
+  .card{
+    background:#fff;
+    flex:1;
+    margin:0 10px;
+
+  }
+
+  .card .img{
+    height:100px;
+    width:100%;
+  }
+  .card .img img{
+    height:50%;
+    width:100%;
+    object-fit: cover;
+    border-radius:5px;
+  }
+
+  
+  .card .content .title{
+    font-size: 25px;
+    font-weight: 600;
+    
+  }
+
+  .card .content .sub-title{
+font-size:20px;
+font-weight: 600;
+color: black;
+
+  }
+
+  
+
+
+  .card  button{
+
+    background:gray;
+    color:white;
+    font-size:20px;
+    padding:5px 8px;
+    border-radius:5px;
+    cursor:pointer;
+    transition: 0.2s;
+    width:200px;
+    height:50px;
+  }
+
+  .card .content btn button:hover{
+  transform:scale(0.9);
+  }
+
+  .owl-dots{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .owl-dot{
+    height: 15px;
+    width: 45px;
+    margin: 0 5px;
+    outline: none;
+    border-radius: 14px;
+    border: 2px solid gray!important;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  .owl-dot.active,
+  .owl-dot:hover{
+    background: gray!important;
+  }
+  #courses{
+   height: 100%;
+    display: grid;
+    align-items: center;
+    place-items: center;
+    
+  }
+
+
+/* eend courses section style */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start conect  section style */
+
+#contact {
+    display: grid;
+    display: grid;
+    place-items: center;
+    background-color: white;
+   
+  }
+  
+  #contact p{
+color:black;
+font-size: 30px;
+font-style: italic;
+font-family:cursive;
+  }
+.heading{
+color:gray;
+  font-size:900px;
+  font-weight:bold;
+}
+ 
+
+.heading span{
+    color: #6A5ACD;
+}
+  .contact{
+    background: #f5f5f5;
+    width: 800px;
+    margin: 50px auto;
+    max-width: 97%;
+    border-radius: 4px;
+    padding: 55px 30px;
+    
+  }
+  
+  form .title h2{
+    letter-spacing: 6px;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    color:black;
+    font-size: 30px;
+
+  }
+  
+  form .names{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  form .names .item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    width: 48%;
+  }
+  
+  form label{
+    display: block;
+    font-size: 13px;
+    letter-spacing: 3.5px;
+    margin-bottom: 16px;
+    color:black;
+    
+  }
+  
+  form .names .item input{
+    border-radius: 4px;
+    border: 1px solid black;
+    outline: 0;
+    padding: 16px;
+    width: 100%;
+    height: 44px;
+    background: transparent;
+    font-size: 17px;
+  }
+  
+  form .msg{
+    margin-bottom: 24px;
+  }
+  
+  form .msg textarea{
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid black;
+    outline: 0;
+    padding: 12px 16px;
+    width: 100%;
+    height: 100px;
+    font-size: 17px;
+  }
+  
+  form .action{
+    margin-bottom: 32px;
+  }
+  
+  form .action input{
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    height: 44px;
+    letter-spacing: 3px;
+    outline: 0;
+    padding: 0 20px 0 22px;
+    margin-right: 10px;
+  }
+  
+  form .action input[type="submit"]{
+    background: white;
+    color: black;
+  }
+  
+  form .icons a{
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 600;
+    width: 38px;
+    margin-right: 10px;
+    color:white;
+  }
+  
+  form .names .item input:focus, form .msg textarea:focus, form .icons a:hover{
+    background: rgba(255,255,255,0.075);
+  }
+  
+  @media (max-width: 480px){
+    form .names{
+      flex-direction: column;
+    }
+    form .names .item{
+      width: 100%;
+    }
+    form .action{
+      display: flex;
+      flex-direction: column;
+    }
+    form .action input{
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  }
+  
+
+
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color:#6A5ACD;
+}
+
+
+/* end conect  section style */
